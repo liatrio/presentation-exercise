@@ -17,7 +17,8 @@ Take the following steps to fix the dev's code:
   <https://github.com/liatrio/presentation-exercise>
 2. Clone the repo onto your machine.
 3. Change from the "master" branch to your "feature_B" branch.
-4. Fix the developer's mistake on line 272 of the index.html file.
+4. Fix the developer's mistake on line 272 of the index.html file to increment
+time correctly.
 5. Commit and push your change to your branch, then merge the change into your
 master branch.
 6. Fix any errors and push the changes back into your master branch.
