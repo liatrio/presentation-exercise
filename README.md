@@ -1,5 +1,7 @@
 # DevOps Engineering Exercise
 
+![alt text](screenshot.png)
+
 In this exercise, you will be acting as a developer in an Enterprise level
 organization.
 
@@ -37,9 +39,3 @@ go to your environment tab, and click on view deployment to view the web page!
 on your web page. The change may take some time after committing due to
 Travis-CI. You can also navigate to your Travis-CI build status from your
 Github repo commit history.
-
-
-![alt text](screenshot.png)
-
-
-
