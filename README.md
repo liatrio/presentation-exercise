@@ -19,24 +19,17 @@ Take the following steps to fix the dev's code:
 3. Change from the "master" branch to your "feature_B" branch.
 4. Fix the developer's mistake on line 272 of the index.html file to increment
 time correctly.
-5. Commit and push your change to your branch, then merge the change into your
-master branch.
-6. Fix any errors and push the changes back into your master branch.
-7. Now head to Travis-CI.
-  <https://travis-ci.org/>
-8. Sign in with Github, navigate to your profile, and switch on the repository
-for the presentation-exercise. The repository may take a few seconds to show up.
-9. Now head back to Github to generate your authentification token under
-  __Settings__ -> __Developer settings__ -> __Personal access tokens__
-10. Enter your auth token in Travis-CI by going to your Dashboard, clicking on
-the ![alt text](https://github.com/liatrio/presentation-exercise/blob/master/Icon.png "travis-icon") icon in Travis-CI,
-and head to settings.
-11. Enter your auth token under Environemnt Variables, use the name,
-"GITHUB_TOKEN", and make sure that "Display value in build log" is inactivate. 
-12. Head back to the Dashboard and trigger a build for presentation-exercise.
-13. If your build succeeded, head over back to your fork of your Github repo,
+5. Commit your changes and push them up to GitHub.
+6. Merge your branch into master and fix any merge conflicts.
+7. Goto to Travis-CI <https://travis-ci.org/> and sign in with Github.
+8. Navigate to your profile, and switch on the presentation-exercise repository. The repository may take a few seconds to show up.
+9. Now head back to Github to generate an access token under __PROFILE ICON__ -> __Settings__ -> __Developer settings__ -> __Personal access tokens__
+10. Enter your access token in Travis-CI by opening the presentation-exercise repository settings (look for the ![alt text](https://github.com/liatrio/presentation-exercise/blob/master/Icon.png "travis-icon") icon) and enter your auth token under Environemnt Variables. Use the name
+`GITHUB_TOKEN` and make sure that "Display value in build log" is inactivate. 
+11. Head back to the Dashboard and trigger a build for presentation-exercise.
+12. If your build succeeded, head over back to your fork of your Github repo,
 go to your environment tab, and click on view deployment to view the web page!
-14. (OPTIONAL) Make a change to the index file and redeploy it to your changes
+13. (OPTIONAL) Make a change to the index file and redeploy it to your changes
 on your web page. The change may take some time after committing due to
 Travis-CI. You can also navigate to your Travis-CI build status from your
 Github repo commit history.
