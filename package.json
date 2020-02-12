@@ -1,0 +1,24 @@
+{
+  "name": "presentation-exercise",
+  "version": "1.0.0",
+  "description": "![alt text](screenshot.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liatrio/presentation-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liatrio/presentation-exercise/issues"
+  },
+  "homepage": "https://github.com/liatrio/presentation-exercise#readme",
+  "dependencies": {
+    "bootstrap": ">=4.3.1",
+    "jquery": ">=3.4.0",
+    "npm": ">=6.13.4"
+  }
+}
